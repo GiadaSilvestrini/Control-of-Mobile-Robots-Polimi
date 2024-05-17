@@ -1,0 +1,9 @@
+<launch>
+
+    <param name="increment" value="1.0" />
+    <node pkg="ros_basics" type="counter" name="counter1" output="screen"/>
+	<node pkg="ros_basics" type="counter" name="counter2" output="screen"/>
+    <node pkg="ros_basics" type="sumup" name="sumup" output="screen"/>
+	<node pkg="ros_basics" type="clock" name="clock" output="screen"/>
+
+</launch>
