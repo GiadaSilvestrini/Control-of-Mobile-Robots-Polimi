@@ -1,0 +1,24 @@
+# Controller configuration parameters
+  /car_trajectory_control/run_period: 0.01          # Node execution period
+
+# Controller parameters
+  /car_trajectory_control/P_dist: 0.12              # Distance of point P from odometric center
+  /car_trajectory_control/l: 0.26       
+  # Bicycle length
+  /car_trajectory_control/K_p_x:  0.5 #0.5 #0.5                        # P trajectory tracking controller gain for x direction
+  /car_trajectory_control/K_p_y:  0.5 #0.75 #1.5                        # P trajectory tracking controller gain for y direction
+  
+  /car_trajectory_control/K_i_x: 1.5                   
+  /car_trajectory_control/K_i_y: 1.5 
+  
+  /car_trajectory_control/T_i_x: 1
+  /car_trajectory_control/T_i_y: 1      
+  
+  /car_trajectory_control/old_x: 0.0
+  /car_trajectory_control/old_y: 0.0
+  /car_trajectory_control/old_x_ref: 0.0
+  /car_trajectory_control/old_y_ref: 0.0
+  
+  /car_trajectory_control/T:  2.1 #1.575  
+  
+
