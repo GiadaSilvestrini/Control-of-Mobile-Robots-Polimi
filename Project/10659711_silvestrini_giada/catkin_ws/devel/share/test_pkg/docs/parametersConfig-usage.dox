@@ -1,0 +1,7 @@
+\subsubsection usage Usage
+\verbatim
+<node name="wheel_states" pkg="test_pkg" type="wheel_states">
+  <param name="mth" type="int" value="0" />
+</node>
+\endverbatim
+

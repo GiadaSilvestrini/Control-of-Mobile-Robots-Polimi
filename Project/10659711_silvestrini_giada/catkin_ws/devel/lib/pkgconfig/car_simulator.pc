@@ -1,0 +1,8 @@
+prefix=/home/giada/catkin_ws/devel
+
+Name: car_simulator
+Description: Description of car_simulator
+Version: 0.0.0
+Cflags: -I/home/giada/catkin_ws/src/car_simulator/include
+Libs: -L${prefix}/lib -lcar_simulator
+Requires: roscpp rospy std_msgs

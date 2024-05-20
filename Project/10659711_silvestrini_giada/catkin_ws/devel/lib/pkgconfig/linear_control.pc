@@ -1,0 +1,8 @@
+prefix=/home/giada/catkin_ws/devel
+
+Name: linear_control
+Description: Description of linear_control
+Version: 0.0.0
+Cflags: -I/home/giada/catkin_ws/src/linear_control/include
+Libs: -L${prefix}/lib -lunicycle_kin_sim
+Requires: roscpp rospy std_msgs
